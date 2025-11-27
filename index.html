@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vet Clinic API</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7fa;
+            color: #333;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: #2b74b6;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 20px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #2b74b6;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 12px 25px;
+            background: #2b74b6;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1f5a8c;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🐾 Vet Clinic API</h1>
+    <p>Микросервис для работы с данными собак</p>
+</header>
+
+<div class="container">
+
+    <h2>📌 Возможности сервиса</h2>
+    <p>API предоставляет доступ к следующим операциям:</p>
+    <ul>
+        <li>Получить список всех собак</li>
+        <li>Получить собаку по ID</li>
+        <li>Добавить собаку</li>
+        <li>Изменить данные собаки</li>
+        <li>Удалить собаку</li>
+    </ul>
+
+    <h2>🚀 API документация</h2>
+    <a class="button" href="https://ВАШ-SERVICE.onrender.com/docs">Swagger UI</a>
+    <a class="button" href="https://ВАШ-SERVICE.onrender.com/redoc">ReDoc UI</a>
+
+    <h2>💾 Исходный код</h2>
+    <a class="button" href="https://github.com/ВАШ-ЛОГИН/vet-clinic-api">GitHub Репозиторий</a>
+
+    <h2>📦 Запуск локально</h2>
+    <pre>
+pip install -r requirements.txt
+uvicorn main:app --reload
+    </pre>
+
+    <h2>👤 Автор</h2>
+    <p><b>Имя Фамилия</b></p>
+
+</div>
+
+<footer>
+    © 2025 Vet Clinic API — учебный проект FastAPI
+</footer>
+
+</body>
+</html>
